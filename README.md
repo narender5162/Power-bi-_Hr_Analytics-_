@@ -106,3 +106,16 @@ To build a centralized Power BI solution that:
 
 Built a centralized Power BI dashboard that replaces manual Excel-based attendance tracking and provides structured visibility into workforce presence, work-from-home usage, and sick leave trends.
 
+## Business Impact
+* Replaced manual Excel-based attendance tracking with a centralized Power BI dashboard
+* Consolidated multiple monthly datasets into a single reporting model for easier analysis
+* Improved visibility of workforce attendance trends across a 3-month period
+* Enabled analysis of hybrid work patterns, including higher WFH usage on specific weekdays
+* Provided structured tracking of sick leave and overall attendance behavior at employee leve
+
+
+
+
+## Screen shorts \ Demos
+* Dah board look like 
+
