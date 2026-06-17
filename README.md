@@ -117,5 +117,5 @@ Built a centralized Power BI dashboard that replaces manual Excel-based attendan
 
 
 ## Screen shorts \ Demos
-* Dah board look like 
+* Dah board look like Eample:https://github.com/narender5162/Power-bi-_Hr_Analytics-_/blob/main/power-bi-hr-analytics-overview..png
 
