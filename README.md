@@ -1,34 +1,41 @@
-Here is your **final GitHub README (clean, professional, no fluff, no exaggeration, copy-paste ready)**:
 
----
 
-# HR Analytics Dashboard | Power BI, Power Query, DAX
+# HR Analytics: Workforce Attendance Dashboard (Power BI)
 
-## Overview
+## HR Analytics: Workforce Attendance Dashboard
 
-This project analyzes employee attendance data from AtliQ Technologies (April–June 2022) using Power BI. It converts raw Excel attendance files into an interactive dashboard to track workforce presence, work-from-home behavior, and sick leave trends.
+An interactive Power BI dashboard used to analyze employee attendance behavior, including presence, work-from-home patterns, and sick leave trends across a 3-month period.
 
----
 
-## Business Problem
 
-Attendance data was stored in separate monthly Excel files, which made it difficult to:
+## 2. Short Description / Purpose
 
-* Combine data across months
-* Track attendance trends consistently
-* Analyze work-from-home usage
-* Monitor sick leave patterns
-* Identify workforce behavior trends
+The HR Analytics Dashboard is a Power BI report built using employee attendance data from April to June 2022 for AtliQ Technologies.
 
-A centralized reporting system was required to improve visibility and reduce manual reporting effort.
+It provides a structured view of workforce presence, hybrid work adoption, and absenteeism patterns. The solution replaces manual Excel-based tracking with a centralized reporting model for HR analysis.
 
----
 
-## Dataset
+## 3. Tech Stack
 
-Daily employee attendance data for April, May, and June 2022.
+• Power BI Desktop – Dashboard development and visualization
+• Power Query – Data cleaning, transformation, and combining monthly files ,and unpivoting
+• DAX (Data Analysis Expressions) – KPI calculations and measures
+• Data Modeling – Single fact table structure for attendance analysis
+• Excel – Source data format
 
-**Attendance Codes:**
+
+## 4. Data Source
+
+Internal HR attendance dataset (AtliQ Technologies)
+
+The dataset contains daily employee attendance records for April, May, and June 2022:
+
+* Employee daily attendance status
+* Work-from-home records
+* Sick leave records
+* Weekly offs and holidays
+
+### Attendance Codes
 
 * P → Present
 * WFH → Work From Home
@@ -36,83 +43,66 @@ Daily employee attendance data for April, May, and June 2022.
 * WO → Weekly Off
 * HO → Holiday
 
----
 
-## Data Preparation (Power Query)
+## 5. Features / Highlights
 
-* Combined multiple monthly Excel sheets into one dataset
-* Removed duplicate headers and cleaned inconsistent formatting
-* Standardized attendance codes
-* Transformed date columns using unpivoting
-* Created a single fact table for analysis
-* Built a refreshable query structure for future updates
+### • Business Problem
 
----
+Attendance data was stored in separate monthly Excel files, making it difficult to analyze workforce behavior over time.
 
-## Data Model & DAX
+Key issues:
 
-A single fact table was used to calculate KPIs.
+* No centralized reporting structure
+* Manual data consolidation effort
+* Limited visibility into hybrid work patterns
+* Difficulty tracking absenteeism trends
 
-**Key Measures:**
+### • Goal of the Dashboard
 
-* Total Working Days (excluding WO and HO)
-* Present Days (P + WFH)
-* Work From Home Count
-* Sick Leave Count
-* Presence %
-* WFH %
-* SL %
+To build a centralized Power BI solution that:
 
-**DAX Functions Used:**
+* Combines attendance data into a single model
+* Tracks workforce presence trends
+* Analyzes work-from-home adoption
+* Monitors sick leave behavior
+* Supports HR reporting through KPIs
 
-* CALCULATE()
-* DIVIDE()
-* VAR
 
----
 
-## KPIs
+### • Key Visuals
 
-| KPI                | Value  |
-| ------------------ | ------ |
-| Presence %         | 91.83% |
-| WFH %              | 10.00% |
-| SL %               | 1.10%  |
-| Total Working Days | 4369   |
+**KPI Overview**
 
----
+* Presence %: 91.83%
 
-## Dashboard Features
+* WFH %: 10.00%
 
-* Attendance trend analysis over time
-* Work-from-home distribution tracking
-* Sick leave monitoring
-* Employee-level attendance view
+* SL %: 1.10%
+
+* Total Working Days: 4,369 days
+ 
+**Trend Analysis**
+
+* Attendance trend over time
+* Work-from-home distribution over time
+
+**Behavior Analysis**
+
 * Weekday-based attendance patterns
-* Monthly filtering and segmentation
+* Employee-level attendance breakdown
 
----
 
-## Key Insights
 
-* Attendance remained stable across the three-month period
-* Work-from-home activity was higher on Mondays and Fridays
-* Sick leave levels remained consistently low
-* Clear hybrid working pattern observed in employee behavior
+### • Business Impact & Insights
 
----
+* Stable attendance patterns observed across the period
+* Work-from-home usage higher on Mondays and Fridays
+* Sick leave remained consistently low
+* Improved visibility into workforce behavior
+* Reduced dependency on manual Excel reporting
 
-## Tools Used
-
-* Power BI
-* Power Query
-* DAX
-* Microsoft Excel
-
----
 
 ## Outcome
 
 Built a centralized Power BI dashboard that replaces manual Excel-based attendance tracking and provides structured visibility into workforce presence, work-from-home usage, and sick leave trends.
 
----
